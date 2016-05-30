@@ -17,7 +17,7 @@
 3. Execute
 
   ```bash
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/<you-or-your-organisation>/hostsmanager/master/hostsmanager.rb)" enable mit
+  sudo /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/<you-or-your-organisation>/hostsmanager/master/hostsmanager.rb)" enable mit
   ```
 
 4. And going to play on [https://web.mit.edu/]()
@@ -26,13 +26,13 @@
 
 Force IP of [perdu.com]()
 ```bash
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/JulienBreux/hostsmanager/master/hostsmanager.rb)" enable perdu
+sudo /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/JulienBreux/hostsmanager/master/hostsmanager.rb)" enable perdu
 ```
 
 Disable force IP of [perdu.com]()
 
 ```bash
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/JulienBreux/hostsmanager/master/hostsmanager.rb)" disable perdu
+sudo /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/JulienBreux/hostsmanager/master/hostsmanager.rb)" disable perdu
 ```
 
 ## Philosophy
