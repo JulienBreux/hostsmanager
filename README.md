@@ -20,6 +20,8 @@
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/<you-or-your-organisation>/hostsmanager/master/hostsmanager.rb)" enable mit
   ```
 
+4. And going to play on [https://web.mit.edu/]()
+
 ## Test
 
 Force IP of [perdu.com]()
