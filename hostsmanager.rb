@@ -2,8 +2,8 @@
 #
 # HOW TO USE?
 #
-# $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/JulienBreux/hostsmanager/master/hostsmanager.rb)" enable perdu
-# $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/JulienBreux/hostsmanager/master/hostsmanager.rb)" disable perdu
+# $ sudo /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/JulienBreux/hostsmanager/master/hostsmanager.rb)" enable perdu
+# $ sudo /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/JulienBreux/hostsmanager/master/hostsmanager.rb)" disable perdu
 #
 
 ################################################ SETTINGS
