@@ -77,7 +77,7 @@ class BlockManager
 
     lines = ["# > #{name.upcase}\n"]
     @hosts[name.to_sym].each do |host, ip|
-      lines << "#{host} #{ip}\n"
+      lines << "#{ip} #{host}\n"
     end
     lines << "# < #{name.upcase}\n"
 
